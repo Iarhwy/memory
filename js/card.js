@@ -45,7 +45,7 @@ export class AmazingCard extends Card {
       const img = document.createElement('img')
       for (let i = 0; i < cardsImgArray.length; i++) {
          if (number == parseInt(cardsImgArray[i])) {
-            img.src = `../img/${cardsImgArray[i]}.png`
+            img.src = `./img/${cardsImgArray[i]}.png`
             img.style.zIndex = '0'
             this.card.append(img)
          }
